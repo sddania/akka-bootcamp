@@ -2,7 +2,7 @@
 using System.IO;
 using Akka.Actor;
 
-namespace buildup
+namespace WinTail
 {
     /// <summary>
     /// Turns <see cref="FileSystemWatcher"/> events about a specific file into messages for <see cref="TailActor"/>.
